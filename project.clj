@@ -12,5 +12,5 @@
   :profiles
   {:dev {:dependencies [[eftest "0.5.9"]
                         [org.slf4j/slf4j-simple "1.7.30"]]}}
-  :repl-options {:init-ns logger.unilog}
+  :repl-options {:init-ns duct.logger.unilog}
   :plugins [[lein-ancient "0.6.14"]])

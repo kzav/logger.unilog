@@ -1,0 +1,1 @@
+{:duct.logger/unilog [:duct/logger]}

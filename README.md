@@ -1,6 +1,6 @@
 # Duct logger.unilog
 
-Integrant multimethods for setting up a [unilog][] logger for
+Integrant multimethods for setting up a [unilog][] (SLF4J + Logback) logger for
 the [Duct][] framework.
 
 [unilog]: https://github.com/pyr/unilog
