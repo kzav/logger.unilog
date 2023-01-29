@@ -9,9 +9,8 @@
 
 (duct/load-hierarchy)
 
-(def default-config
-  {:level   :debug
-  :console "%p %c - %m%n"})
+(def default-config {:level   :debug
+                     :console "%p %c - %m%n"})
 
 (defn remove-cr [s] (str/replace s #"\r\n" "\n"))
 
