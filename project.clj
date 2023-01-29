@@ -10,7 +10,6 @@
                  [integrant "0.8.0"]
                  [spootnik/unilog "0.7.31"]]
   :profiles
-  {:dev {:dependencies [[eftest "0.5.9"]
-                        [org.slf4j/slf4j-simple "1.7.30"]]}}
+  {:dev {:dependencies [[eftest "0.5.9"]]}}
   :repl-options {:init-ns duct.logger.unilog}
   :plugins [[lein-ancient "0.6.14"]])
